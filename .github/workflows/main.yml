@@ -28,11 +28,7 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.1.4
         with:
-<<<<<<< HEAD
           version: 12
-=======
-         version: 12
->>>>>>> e4959560dea11c813a7fab589e893c01f2f8a117
         
       - name: npm/yarn/pnpm install
         # You may pin to the exact commit or the version.
